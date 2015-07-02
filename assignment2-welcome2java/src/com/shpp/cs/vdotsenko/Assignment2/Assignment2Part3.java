@@ -6,7 +6,6 @@
 package com.shpp.cs.vdotsenko.Assignment2;
 
 import com.shpp.cs.a.graphics.WindowProgram;
-import java.awt.Color;
 import acm.graphics.*;
 
 /**
@@ -52,7 +51,7 @@ public class Assignment2Part3 extends WindowProgram {
         GOval heel = new GOval(HEEL_OFFSET_X, HEEL_OFFSET_Y, HEEL_WIDTH, HEEL_HEIGHT);
         heel.setFilled(true);
         
-        // three ovals, that represents toes
+        // three ovals that represents toes
         GOval toe1 = new GOval(FIRST_TOE_OFFSET_X, FIRST_TOE_OFFSET_Y, TOE_WIDTH, TOE_HEIGHT);
         GOval toe2 = new GOval(SECOND_TOE_OFFSET_X, SECOND_TOE_OFFSET_Y, TOE_WIDTH, TOE_HEIGHT);
         GOval toe3 = new GOval(THIRD_TOE_OFFSET_X, THIRD_TOE_OFFSET_Y, TOE_WIDTH, TOE_HEIGHT);
