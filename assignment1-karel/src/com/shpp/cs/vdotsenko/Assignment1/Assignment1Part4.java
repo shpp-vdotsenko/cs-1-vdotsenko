@@ -3,16 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kt_karel;
+package com.shpp.cs.vdotsenko.Assignment1;
 import com.shpp.karel.KarelTheRobot;
 
 /**
- * Шахматная доска.
+ * Chess board
  * @author karponter
  */
-public class KT_Karel_the_grossmeister extends KarelTheRobot {
+public class Assignment1Part4 extends KarelTheRobot {
     
-    // Зачем ЭТО вы знаете ;)
     public void run() throws Exception {
         turnLeft();
         DropAndRun();
@@ -26,12 +25,15 @@ public class KT_Karel_the_grossmeister extends KarelTheRobot {
         }
     }
     
-    // Возвращаемся
+    // go back to a south side of the world
     public void goBack() throws Exception {
         while (frontIsClear())
             move();
     }
     
+    // Karel walks forward and puts beepers to a bord
+    // Firstly he put a beeper, then makes two steps and puts beeper again untill the wall is reached
+    // Finally he goes back to a start position
     public void DropAndRun() throws Exception {
         putBeeper();
         while (frontIsClear()) {
@@ -39,6 +41,7 @@ public class KT_Karel_the_grossmeister extends KarelTheRobot {
                 move();
                 if (frontIsClear()) {
                     move();
+                    // put beeper only if cell is empty
                     if (noBeepersPresent()) {
                         putBeeper();
                     }
@@ -52,6 +55,9 @@ public class KT_Karel_the_grossmeister extends KarelTheRobot {
         turnLeft();
     }
     
+    // Karel walks forward and puts beepers to a bord
+    // Firstly he makes a step, then puts a beeper and makes one more step untill the wall is reached
+    // Finally he goes back to a start position   
     public void RunAndDrop() throws Exception {
         while (frontIsClear()) {
             if (frontIsClear()) move();
@@ -64,6 +70,7 @@ public class KT_Karel_the_grossmeister extends KarelTheRobot {
         turnLeft();
     }
     
+    // Karel goes to a paralell line and turnes to face north and be ready to fill empty line
     public void ChangeLine() throws Exception {
         move();
         turnLeft();

@@ -3,23 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kt_karel;
+package com.shpp.cs.vdotsenko.Assignment1;
 import com.shpp.karel.KarelTheRobot;
 /**
- * Газетка, она самая.
+ * Newspaper task
  * @author karponter
  */
 
-public class KT_Karel_Newspaper extends KarelTheRobot {
+public class Assignment1Part1 extends KarelTheRobot {
     
-    // Зачем ЭТО вы знаете ;)
     public void run() throws Exception {
         goToNP();
         grabThatPieceOfPaper();
         goBack();
     }
     
-    // Выходим на улицу, поприветствовать солнышко
+    // move Karel to the newspaper
     public void goToNP() throws Exception {
         move();
         move();
@@ -32,7 +31,7 @@ public class KT_Karel_Newspaper extends KarelTheRobot {
         move();
     }
     
-    // Идем назад.
+    // move Karel to the start position
     public void goBack() throws Exception {
         turnLeft();
         turnLeft();
@@ -46,7 +45,7 @@ public class KT_Karel_Newspaper extends KarelTheRobot {
         move();
     }
     
-    // о газетке не забываем
+    // grabbing the newspaper under Karel
     public void grabThatPieceOfPaper() throws Exception {
         pickBeeper();
     }
