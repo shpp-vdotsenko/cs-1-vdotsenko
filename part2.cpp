@@ -2,6 +2,7 @@
 #include <string>
 #include <locale>
 
+// lol
 using namespace std;
 
 string obenglobish(string);
