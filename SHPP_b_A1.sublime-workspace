@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"str",
+				"string"
+			],
+			[
+				"int",
+				"intToStr"
+			],
+			[
+				"stri",
+				"strToInt"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"is",
+				"is_end_of_sentence"
+			],
+			[
+				"curr",
+				"currchar"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"ma",
+				"main	main()"
+			],
+			[
+				"in",
+				"inc	#include \"…\""
+			],
+			[
 				"for",
 				"foreach	foreach …"
 			],
@@ -102,10 +138,6 @@
 			[
 				"mod",
 				"modifyLast"
-			],
-			[
-				"is",
-				"is_int"
 			],
 			[
 				"json",
@@ -448,10 +480,6 @@
 				"true"
 			],
 			[
-				"in",
-				"input	Tag"
-			],
-			[
 				"stro",
 				"stroke_width"
 			],
@@ -486,39 +514,27 @@
 			[
 				"bu",
 				"bucketFolder"
-			],
-			[
-				"AWS",
-				"AWS_BUCKET"
-			],
-			[
-				"AW",
-				"AWS_SECRET_KEY"
-			],
-			[
-				"aws",
-				"AWS_KEY"
-			],
-			[
-				"check",
-				"checkFile"
-			],
-			[
-				"str",
-				"str1"
-			],
-			[
-				"creat",
-				"create_part_file"
-			],
-			[
-				"exist",
-				"file_exists"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "SHPP_b_assignment_1/part3.cpp",
+			"settings":
+			{
+				"buffer_size": 1677,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "SHPP_b_assignment_1/part2.cpp",
+			"settings":
+			{
+				"buffer_size": 1296,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/C++/C++ Single File.sublime-build",
 	"build_system_choices":
@@ -540,13 +556,41 @@
 			]
 		]
 	],
-	"build_varint": "Run",
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 375.0,
-		"last_filter": "pci",
+		"last_filter": "g",
 		"selected_items":
 		[
+			[
+				"g",
+				"Git: Push"
+			],
+			[
+				"gitpush",
+				"Git: Push"
+			],
+			[
+				"gitcommit",
+				"Git: Quick Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Gui"
+			],
+			[
+				"pcdi",
+				"Package Control: Disable Package"
+			],
+			[
+				"pcr",
+				"Package Control: Remove Package"
+			],
 			[
 				"pci",
 				"Package Control: Install Package"
@@ -607,8 +651,24 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/karponter/Projects/SHPP_b_A1_P1",
+		"/home/karponter/Projects/SHPP_b_A1_P1/SHPP_b_assignment_1"
+	],
 	"file_history":
 	[
+		"/home/karponter/Projects/SHPP_b_A1_P1/part2.cpp",
+		"/home/karponter/Projects/SHPP_b_A1_P1/part1.cpp",
+		"/home/karponter/Downloads/Самурай чамплу/vReveal.settings.xml",
+		"/home/karponter/Downloads/Самурай чамплу/about.txt",
+		"/home/karponter/Documents/keystroke.jks",
+		"/home/karponter/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/karponter/Projects/SHPP_b_A1_P1/terminal.glue",
+		"/home/karponter/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/usr/include/c++/4.6/bits/basic_string.h",
+		"/home/karponter/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/karponter/.config/sublime-text-3/Packages/Web Inspector/Default (Linux).sublime-keymap",
 		"/home/karponter/Projects/SHPP_b_A1_P1/main.cpp",
 		"/var/www/html/dating/data/registration_stages/0",
 		"/var/log/apache2/error.log",
@@ -616,7 +676,6 @@
 		"/var/www/html/dating/ajax/profile_filling.php",
 		"/var/www/html/dating/index.php",
 		"/home/karponter/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/home/karponter/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/var/www/html/dating/data/registration_stages/1",
 		"/var/www/html/dating/KT/core/zabash/Basic_user.php",
 		"/var/www/html/dating/css/style.css",
@@ -726,17 +785,7 @@
 		"/home/karponter/.config/sublime-text-2/Packages/View In Browser/View In Browser.sublime-settings",
 		"/home/karponter/.config/sublime-text-2/Packages/User/View In Browser.sublime-settings",
 		"/home/karponter/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-		"/home/karponter/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
-		"/home/karponter/.config/sublime-text-2/Packages/LiveReload/LiveReload.sublime-settings",
-		"/home/karponter/Projects/#Web/noComments/upload/js/palette.js",
-		"/home/karponter/Projects/#Web/nonScire.pp.ua/Upload/js/script.js",
-		"/home/karponter/Projects/#Web/nonScire.pp.ua/Upload/css/baron.css",
-		"/home/karponter/Projects/#Web/nonScire.pp.ua/Upload/index.php",
-		"/home/karponter/Downloads/Khuman.txt",
-		"/home/karponter/Projects/#Web/noComments/upload/images/hexes/ncFrontend.svg",
-		"/home/karponter/Projects/#Web/noComments/upload/style.css",
-		"/home/karponter/Projects/#Web/noComments/upload/js/randomcity.js",
-		"/home/karponter/Projects/#Web/noComments/upload/js/hexgen.js"
+		"/home/karponter/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap"
 	],
 	"find":
 	{
@@ -755,6 +804,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1",
+			"myString",
+			"(\"",
+			"build",
 			"theme",
 			"Option",
 			"option",
@@ -878,11 +931,7 @@
 			"setHexCoords",
 			"edgeLenght",
 			"edgeLength",
-			"hexPoints",
-			"edgeLenght",
-			"private",
-			"private $",
-			"private "
+			"hexPoints"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -916,8 +965,67 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "SHPP_b_assignment_1/part3.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "SHPP_b_assignment_1/part2.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -951,14 +1059,18 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.exec":
 	{
-		"height": 118.0
+		"height": 213.0
 	},
 	"output.find_results":
 	{
 		"height": 118.0
+	},
+	"output.git":
+	{
+		"height": 120.0
 	},
 	"output.unsaved_changes":
 	{
